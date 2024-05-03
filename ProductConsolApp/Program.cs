@@ -114,7 +114,8 @@ namespace ProductConsolApp
                     conn.Open();
                     Console.WriteLine("Connection Established Successfully");
 
-                    int idToDelete = 28;
+                    Console.Write("Enter student Id to delete: ");
+                    int idToDelete = Convert.ToInt32(Console.ReadLine());
 
                     string query = "DELETE FROM AddressBook WHERE Id = @Id";
                     SqlCommand sqlCommand = new SqlCommand(query, conn);
