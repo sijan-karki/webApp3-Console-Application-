@@ -13,7 +13,7 @@ namespace ProductConsolApp
             Console.WriteLine("1. Insert");
             Console.WriteLine("2. Update");
             Console.WriteLine("3. Delete");
-            Console.WriteLine("4. Exit");
+            Console.WriteLine("4. Display record");
             Console.Write("Enter your choice: ");
             string choice = Console.ReadLine();
 
