@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Data.SqlClient;
 
-namespace ADOExample
+namespace ProductConsolApp
 {
     class Program
     {
