@@ -11,10 +11,9 @@ namespace ADOExample
         {
             Console.WriteLine("Student CRUD Operations");
             Console.WriteLine("1. Insert");
-            Console.WriteLine("2. Read");
-            Console.WriteLine("3. Update");
-            Console.WriteLine("4. Delete");
-            Console.WriteLine("5. Exit");
+            Console.WriteLine("2. Update");
+            Console.WriteLine("3. Delete");
+            Console.WriteLine("4. Exit");
             Console.Write("Enter your choice: ");
             string choice = Console.ReadLine();
 
